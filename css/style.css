@@ -1006,6 +1006,15 @@ a {
 .csr-img img {
 	width: 100%;
 }
+.csrWrap a {
+	display: block;
+	margin-bottom:  15px;
+	color: #000;
+	font-family: 'calibriregular', sans-serif;
+}
+.csrWrap a:hover{
+	color: #ff1200;
+}
 
 /*div#myElement1_display_button,
 div#myElement2_display_button {
