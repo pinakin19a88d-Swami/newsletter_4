@@ -1006,7 +1006,10 @@ a {
 }
 
 .csr-img img {
-	width: 100%;
+	float: left;
+}
+.csr-img img:first-child {
+	margin-right:15px;
 }
 .csrWrap a {
 	display: block;
@@ -1017,7 +1020,9 @@ a {
 .csrWrap a:hover{
 	color: #ff1200;
 }
-
+.csr-imgWrap img{
+	width: 100%;
+}
 /*div#myElement1_display_button,
 div#myElement2_display_button {
     margin: -26px 40px;
