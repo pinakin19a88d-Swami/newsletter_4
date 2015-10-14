@@ -395,7 +395,7 @@ a {
 	/*letter-spacing: 1px;*/
 	line-height: 14px;
   text-align: center;
-	padding: 31px 11px;
+	padding: 31px 10px;
 	display: block;
 }
 .nav > li > a:hover {
@@ -782,6 +782,8 @@ a {
 	padding: 10px 20px;
 }
 .toc .rightSection p,
+.toc .rightSection ul li,
+.toc .rightSection ol li,
 .events .rightSection p,
 .big_story .rightSection p {
 	font-family: 'calibriregular', sans-serif;
@@ -790,6 +792,14 @@ a {
 	line-height: 15px;
 	letter-spacing: 0.2px;
 	margin-bottom: 12px;
+}
+.toc .rightSection ol {
+	list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 25px;
 }
 .events .rightSection ol {
 	list-style-type: decimal;
@@ -921,6 +931,9 @@ a {
 	text-align: center;
 	margin-bottom: 20px!important;
 	font-family: 'calibribold', sans-serif;
+}
+.imageWidthFix {
+	width: 100%;
 }
 .compWrap {
 	background: url("../images/Fleep-Post-Tabel-designBG.jpg") repeat-y;

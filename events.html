@@ -6,8 +6,9 @@
 		<link rel="icon" type="image/png" href="images/fav_icon.png" />
 
 		<link rel="stylesheet" href="css/animate.min.css"  type="text/css"/>
-		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"  type="text/css"/>
+		<!-- <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"  type="text/css"/> -->
 		<link rel="stylesheet" href="css/style.css"  type="text/css"/>
+		<link rel="stylesheet" href="css/colorbox.css"  type="text/css"/>
 
 	</head>
 
@@ -36,7 +37,7 @@
 				</div>
 
 				<div class="pull-right issueNo">
-					Quarter 3: 2015. <span>ISSUE NO. 3 </span>  for Private circulation only
+					Quarter 4: 2015. <span>ISSUE NO. 4 </span>  for Private circulation only
 				</div><!-- pull-right -->
 
 			</div><!-- container -->
@@ -56,7 +57,7 @@
 				<li class="animated fadeInUp de14ms"><a href="editorial.html">Editorial</a></li>
 				<li class="animated fadeInUp de16ms"><a href="csr.html">CSR</a></li>
 				<li class="animated fadeInUp de18ms"><a href="toc.html">Think TOC<br>Live TOC</a></li>
-				<li class="animated fadeInUp de18ms"><a href="apj.html">APJ<br>Special Story</a></li>
+				<li class="animated fadeInUp de18ms"><a href="apj.html">APJ -<br>An Experience</a></li>
 				<li class="active animated fadeInUp de2s"><a href="events.html">Events</a></li>
 			</ul><!-- nav -->
 		</div><!-- container -->
@@ -76,17 +77,39 @@
 						</ul> -->
 
 						<ul>
-							<li class="active animated fadeInUp de6ms"><a href="events.html">Industrial cricket tournament</a></li>
-							<li class="animated fadeInUp de6ms"><a href="agp_meet.html">AGP meet</a></li>
-							<li class="animated fadeInUp de6ms"><a href="yoga.html">Yoga day</a></li>
-							<li class="animated fadeInUp de6ms"><a href="tree_plantation.html">Tree plantation at Hosur on World Environment day</a></li>
+							<li class="active animated fadeInUp de6ms"><a href="events.html">Pune, Baner - Firefighting</a></li>
+							<li class="animated fadeInUp de6ms"><a href="health_checkup.html">Jamshedpur - Health Checkup</a></li>
+							<li class="animated fadeInUp de6ms"><a href="blood_donation.html">Sitarganj - Blood Donation</a></li>
 						</ul>
 					</div>
 				</div><!-- leftSection -->
 
-				<div class="rightSection mCustomScrollbar pull-left animated fadeInDown de6ms">
+				<div class="rightSection pull-left animated fadeInDown de6ms">
 
-						<h3>Industrial cricket tournament</h3>
+						<div class="galleryWrap">
+	            <div class="categoryWrap bottomSpace6">
+	    					<h5>Pune, Baner - Firefighting</h5>
+	     					<div id='gallery1'>
+		     						<ul class="clearfix">
+				              <li>
+										    <a class='group1' href="images/gallery/firefighting/IMG_20150723_163309.jpg" title="Pune, Baner - Firefighting">
+										    	<img src="images/gallery/firefighting/thumb/IMG_20150723_163309.jpg" title="Pune, Baner - Firefighting">
+										    </a>
+											</li>
+											<li>
+										    <a class='group1' href="images/gallery/firefighting/IMG_20150723_163312.jpg" title="Pune, Baner - Firefighting">
+										    	<img src="images/gallery/firefighting/thumb/IMG_20150723_163312.jpg" title="Pune, Baner - Firefighting">
+										    </a>
+											</li>
+											<li>
+										    <a class='group1' href="images/gallery/firefighting/IMG_20150723_163328.jpg" title="Pune, Baner - Firefighting">
+										    	<img src="images/gallery/firefighting/thumb/IMG_20150723_163328.jpg" title="Pune, Baner - Firefighting">
+										    </a>
+											</li>
+									</ul>
+								</div>
+	            </div><!-- categoryWrap -->
+          	</div><!-- galleryWrap -->
 						
 
 				</div><!-- rightSection -->
@@ -119,8 +142,14 @@
 	</div><!-- footerWrap -->
 
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript">
+
+		$(".group1").colorbox({rel:'group1'});
+
+	</script>
 	
-	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script type="text/javascript">
 
 		$(".logoWarp").mCustomScrollbar({
@@ -129,6 +158,6 @@
 	        keyboard:{ enable: true }
 	    });
 
-	</script>
+	</script> -->
 	</body>
 </html>
